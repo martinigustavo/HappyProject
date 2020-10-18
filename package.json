@@ -1,0 +1,25 @@
+{
+  "name": "happyproject",
+  "version": "1.0.0",
+  "description": "Next Level Week #3",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinigustavo/HappyProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinigustavo/HappyProject/issues"
+  },
+  "homepage": "https://github.com/martinigustavo/HappyProject#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5"
+  }
+}
