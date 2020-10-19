@@ -86,3 +86,16 @@ function toggleSelect(event) {
   // verificar se sim ou nao
   input.value = button.dataset.value;
 }
+
+function validate(event) {
+  // validar se lat e lng estao preenchidos
+  const lat = document.querySelector("[name=lat]").value;
+  const lng = document.querySelector("[name=lng]").value;
+
+  if (lat == "" || lng == "") {
+    event.preventDefault();
+    alert(
+      "Escolha o local da instituição clicando no mapa antes de confirmar!"
+    );
+  }
+}

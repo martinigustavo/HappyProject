@@ -14,7 +14,7 @@ function execute(db) {
             opening_hours TEXT,
             open_on_weekends TEXT
         );
-    `)
+    `);
 }
 
-module.exports = Database.open(__dirname + "/database.sqlite").then(execute) // returns db
+module.exports = Database.open(__dirname + "/database.sqlite").then(execute); // returns db
