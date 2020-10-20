@@ -2,8 +2,6 @@
 
 > Application that makes children adoption process easier for people!
 
-![npm]
-
 This project was developed during the Next Level Week #3, from [RocketSeat](https://rocketseat.com.br).
 
 ## :computer: Web Screenshots
